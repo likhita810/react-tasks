@@ -1,0 +1,89 @@
+body {
+    background-image: linear-gradient(to bottom right, blueviolet, blue, blueviolet);
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 20%;
+    height: 170px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    padding-left: 40px;
+    border-radius: 5px;
+    background: rgba(223, 222, 222, 0.6);
+}
+
+.form div input {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.form #add {
+    background: blueviolet;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 40%;
+    align-items: center;
+}
+
+#taskCard {
+    width: 50%;
+    background: rgba(122, 130, 246, 0.6);
+    border-radius: 5px;
+    display: flex;
+    margin: 10px;
+}
+
+#taskCard .cTask{
+    margin-left: 10px;
+    color: white;
+    font-weight:400;
+    font-size: 20px;
+    width: 50%;
+}
+
+#taskCard .cDate {
+    color: white;
+    font-weight:400;
+    font-size: 15px;
+    margin-left: 20%;
+    width: 45%;
+    margin-top: 20px;
+    text-align: right;
+}
+
+#taskCard #delete {
+    margin-left: 10%;
+    padding-bottom: 9px;
+    padding-top: 4px;
+    border-radius: 30px;
+    height: 40%;
+    margin-top: 5%;
+    background: none;
+    border: none;
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#taskCard #delete:hover {
+    background: red;
+    color: white;
+}

@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from './task9-portfolio/Components/Nav'
+import Profile from './task9-portfolio/Components/Profile';
+
+import CounterApplication from "./task10-counter-app/CounterApp";
+
+import Check from "./task11-cnct-mngr-login/Components/Check";
+import MainComp from "./task11-cnct-mngr-login/Components/MainComp";
+
+import CountComp from './task12-count-comp/CountComp';
+import TimeComp from './task12-count-comp/time';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Nav fName="Likhita" lName="Konathala"></Nav>
+      <Profile></Profile> */}
+
+      {/* <CounterApplication></CounterApplication> */}
+
+      {/* <MainComp></MainComp> */}
+      {/* <Check></Check> */}
+
+      {/* <CountComp></CountComp> */}
+      <TimeComp msg='this is a prop value updated from parent comp' ></TimeComp>
+
     </div>
   );
 }

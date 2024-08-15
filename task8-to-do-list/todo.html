@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <form id="form" class="form">
+        <div>
+            <label for="task">Task</label>
+            <input id = "task" type="text" name="task" placeholder="Enter your to do task here" required>
+            <input type="date" id="date">
+            <button id = "add" onclick = "addTask()">Add</button>
+        </div>
+    </form>
+
+    <div id="card">
+        <div id="taskCard">
+            <input type="checkbox">
+            <p class="cTask">write</p>
+            <p class="cDate">2024-08-04</p>
+            <button id="delete" onclick = "discard(this)">X</button>
+        </div>
+    </div>
+    
+    <script src="todo.js"></script>
+</body>
+</html>

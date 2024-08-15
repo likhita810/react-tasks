@@ -1,0 +1,34 @@
+nav {
+    display: flex;
+    background: rgb(148, 210, 235);
+    color: black;
+}
+
+nav .navLeft {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   font-style: italic;
+   font-size: 30px;
+   margin-top: 15px;
+   margin-left: 30px;
+   width: 50%;
+   padding: 10px;
+}
+
+nav .navRight {
+    width: 70%;
+    margin-top: 30px;
+    justify-content: space-around;
+    margin-left: 20%;
+}
+
+nav .navRight li {
+    display: inline-block;
+    text-align: right;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+nav .navRight li a {
+    text-decoration: none;
+    color: black;
+}

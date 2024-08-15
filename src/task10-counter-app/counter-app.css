@@ -1,0 +1,36 @@
+.cApp {
+    background: linear-gradient(blue,blueviolet, blue);
+    text-align: center;
+    height: 100vh;
+    padding-top: 15%;
+}
+
+.cApp h1{
+    font-style:italic;
+}
+
+.cApp h2 {
+    color: white;
+    font-size: 40px;
+}
+
+
+.cApp .inc {
+    background: lightcyan;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cApp .dec {
+    background: lightcoral;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
