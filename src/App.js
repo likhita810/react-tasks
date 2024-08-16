@@ -8,6 +8,7 @@ import MainComp from "./task11-cnct-mngr-login/Components/MainComp";
 
 import CountComp from './task12-count-comp/CountComp';
 import TimeComp from './task12-count-comp/time';
+import TodoMain from './task13-to-do-app-hoc/Main';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <Check></Check> */}
 
       {/* <CountComp></CountComp> */}
-      <TimeComp msg='this is a prop value updated from parent comp' ></TimeComp>
+      {/* <TimeComp msg='this is a prop value updated from parent comp' ></TimeComp> */}
+      <TodoMain></TodoMain>
 
     </div>
   );
