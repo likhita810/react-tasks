@@ -65,8 +65,8 @@ function App() {
       {/* <TodoMain></TodoMain> */}
 
       {/* <SignInForm></SignInForm> */}
-      {/* <RegistrationForm></RegistrationForm> */}
-      <FeedbackForm></FeedbackForm>
+      <RegistrationForm></RegistrationForm>
+      {/* <FeedbackForm></FeedbackForm> */}
 
     </div>
   );

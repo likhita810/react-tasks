@@ -47,8 +47,8 @@ class SignInForm extends React.Component {
 
   render() {
     return (
-      <form>
-        <h2>Sign In</h2>
+      <form style={{boxShadow: '2px 2px 6px grey', width: '300px', padding: '10px', margin: '10% 30%'}}>
+        <h2 style={{color: 'blueviolet', textAlign: 'center'}}>Sign In Form</h2>
         <div>
           <label style={{color:'white'}}>Username:</label>
           <input type="text" name="username" value={this.state.username} onChange={(e)=>this.handleChange(e)} onKeyUp={(e)=>this.handleKeyPress(e)} onBlur={(e)=>this.handleBlur(e)}/>
@@ -59,7 +59,7 @@ class SignInForm extends React.Component {
           <input type="password" name="password" value={this.state.password} onChange={(e)=>this.handleChange(e)} onKeyUp={(e)=>this.handleKeyPress(e)} onBlur={(e)=>this.handleBlur(e)}/>
           <p style={{color: 'red'}}>{this.state.pswdErr}</p>
         </div>
-        <button type="submit" onSubmit={(e)=>this.handleSubmit(e)}>Sign In</button>
+        <button type="submit" onSubmit={(e)=>this.handleSubmit(e)} style={{backgroundColor: 'lightblue', borderRadius: '5px', border: 'none', padding: '10px'}}>Sign In</button>
       </form>
     );
   }

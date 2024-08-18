@@ -37,26 +37,26 @@ class RegistrationForm extends React.Component {
 
   render() {
     return (
-      <form>
-        <h2>Register</h2>
-        <div>
+      <form style={{boxShadow: '2px 2px 6px grey', width: '300px', padding: '10px', margin: '10% 30%'}}>
+        <h2 style={{color: 'blueviolet', textAlign: 'center'}}>Registration Form</h2>
+        <div style={{marginBottom: '15px'}}>
           <label style={{color:'white'}}>Username:</label>
           <input type="text" name="username" value={this.state.username} onChange={(e)=>this.handleChange(e)} onBlur={(e)=>this.handleBlur(e)} onDoubleClick={(e)=>this.handleDoubleClick(e)}/>
         </div>
-        <div>
+        <div style={{marginBottom: '15px'}}>
           <label style={{color:'white'}}>Email:</label>
           <input type="email" name="email" value={this.state.email} onChange={(e)=>this.handleChange(e)} onBlur={(e)=>this.handleBlur(e)} onDoubleClick={(e)=>this.handleDoubleClick(e)}/>
         </div>
-        <div>
+        <div style={{marginBottom: '15px'}}>
           <label style={{color:'white'}}>Password:</label>
           <input type="password" name="password" value={this.state.password} onChange={(e)=>this.handleChange(e)} onBlur={(e)=>this.handleBlur(e)} onDoubleClick={(e)=>this.handleDoubleClick(e)}/>
         </div>
-        <div>
+        <div style={{marginBottom: '15px'}}>
           <label style={{color:'white'}}>Confirm Password:</label>
           <input type="password" name="confirmPassword" value={this.state.confirmPassword} onChange={(e)=>this.handleChange(e)} onBlur={(e)=>this.handleBlur(e)} onDoubleClick={(e)=>this.handleDoubleClick(e)}/>
           <p style={{color:'red'}}>{this.state.err}</p>
         </div>
-        <button type="submit" onClick={(e)=>this.handleSubmit(e)}>Register</button>
+        <button type="submit" onClick={(e)=>this.handleSubmit(e)} style={{backgroundColor: 'lightblue', borderRadius: '5px', border: 'none', padding: '10px'}}>Register</button>
       </form>
     );
   }
